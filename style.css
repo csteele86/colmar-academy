@@ -1,0 +1,335 @@
+html {
+    font-family: 'Georgia', Times, serif;
+}
+
+
+/*header section*/
+
+
+header {
+    height: 64px;
+    width: 100%;
+    position: fixed;
+    display: inline-flex;
+    align-items: center;
+    z-index: 2;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+.guide {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.guide li {
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.banner-menu {
+    position: absolute;
+    right: 24px;
+    
+}
+
+.logo {
+    height: 32px;
+    position: relative;
+    left: 24px;
+    margin-top: 8px;
+
+}
+
+#title {
+    position: relative;
+    left: 22px;
+    color: gray;
+}
+
+#name {
+    color: black;
+}
+
+.button {
+    padding: 5px;
+    text-decoration: underline;
+    color: royalblue;
+    font-size: 1.5vw;
+}
+
+
+/* learn section */
+
+#learn {
+    padding-bottom: 32px;
+    margin-top: 64px;
+    display: inline-flex;
+    height: auto;
+    background-color: gray;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    
+
+}
+
+.container {
+    max-width: 60%;
+    height: auto;
+    margin-left: 24px;
+}
+
+.start {
+    margin-top: 7%;
+    margin-bottom: 24px;
+    height: auto;
+    width: 100%;
+    position: relative;
+    right: 35%;
+    flex-grow: 2;
+    text-align: center;
+    font-size: 1.75vw;
+}
+
+.here {
+    background-color: whitesmoke;
+    color: rgb(74, 49, 143); 
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+   
+}
+
+/*practice section*/
+
+#practice {
+    display: inline-flex;
+    height: auto;
+    background-color: white;
+    position: relative;
+    
+    
+}
+
+#outside {
+    height: auto;
+    width: 60%;
+    margin-left: 24px;
+    margin-top: 32px;
+}
+
+#hurt {
+    width: 60%;
+    margin-bottom: 24px;
+}
+
+.quote {
+    font-style: italic;
+    max-width: 60%;
+
+}
+
+.person {
+    color: lightslategray;
+    font-weight: 100;
+    font-size: 0.75rem;
+}
+
+#hurt,
+.quote,
+.person {
+    margin-left: 24px;
+}
+
+.container-2 {
+    margin-top: 32px;
+    margin-bottom: 16px;
+    width: 40%;
+}
+
+#small {
+    
+    max-width: 35%;
+    height: auto;
+    padding: 16px;
+}
+
+.info {
+        height: auto;
+        width: 100%;
+        position: relative;
+        right: 35%;
+        flex-grow: 2;
+        font-size: 2vw;
+        display: inline-flex;
+        border: black 1px solid;
+        
+}
+
+span {
+    display: inline-block;
+    margin-top: 16px;
+    
+}
+
+#headline {
+    font-weight: bold;
+}
+
+#details,
+#course-info {
+    opacity: .75;
+    font-size: .75rem;
+}
+
+#read-more {
+    color: royalblue;
+    text-decoration: underline;
+}
+
+/* Start learning */
+
+#section-3 {
+    text-align: center;
+    padding-top: 32px;
+    
+}
+
+.section-3 {
+    background-color: gray;
+    margin-top: 32px;
+    padding-bottom: 16px;
+    height: auto;
+}
+
+.start-learning {
+    align-content: space-between;
+    margin: 16px 56px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    columns: 3;
+    justify-content: space-around;
+    
+}
+
+.courses {
+    padding: 8px;
+    margin: 8px 8px;
+    border: black 1px solid;
+    text-align: left;
+    max-width: 25%;
+    min-width: 15%;
+    background-color: white;
+}
+
+#course {
+    margin-top: 0;
+    padding-top: 0;
+    font-weight: 100;
+}
+
+#course-image {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#course-name {
+    text-align: left;
+    font-weight: bold;
+}
+
+
+/* section-4 */
+
+.section-4 {
+   
+    padding-bottom: 16px;
+    height: auto;
+    display: inline-flex;
+}
+
+#section-4 {
+    text-align: center;
+}
+
+.video-container {
+    height: auto;
+    margin-left: 24px;
+    max-width: 60%;
+}
+
+#video {
+    width: 60%;
+}
+
+#reimagine {
+    text-align: left;
+    margin-top: 24px;
+}
+
+.curabitur {
+    font-size: 1.75vw;
+    max-width: 60%;
+    
+}
+
+.final-2 {
+    height: auto;
+    width: 100%;
+    position: relative;
+    right: 35%;
+    flex-grow: 2;
+    font-size: 2vw;
+    display: inline-flex;
+    border: black 1px solid;
+}
+
+.container-4 {
+    
+    width: 40%;
+}
+
+
+/* footer */
+
+footer {
+    height: auto;
+    width: 100%;
+    position: static;
+    display: inline-flex;
+    align-items: center;
+    background-color: gray;
+    overflow: hidden;
+    
+    flex-wrap: wrap;
+}
+
+.copyright {
+    margin-left: 24px;
+
+}
+
+.footer-menu {
+    position: absolute;
+    right: 24px;
+}
+
+.footer-guide {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+
+
+
+/*media query*/
+
+@media only screen and (max-width: 480px) {
+
+    
+}
